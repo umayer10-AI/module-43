@@ -1,11 +1,12 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const page = async () => {
 
     // const res = await fetch("http://localhost:5000/books",{cache: "no-store"})
-    const res = await fetch("http://localhost:5000/books",{cache: "force-cache"})
-    // const res = await fetch("http://localhost:5000/books",{next: {revalidate: 10}})
+    // const res = await fetch("http://localhost:5000/books",{cache: "force-cache"})
+    const res = await fetch("http://localhost:5000/books",{next: {revalidate: 10}})
     const data = await res.json()
 
     return (
@@ -51,9 +52,9 @@ const page = async () => {
                     Stock: {v.stock}
                     </p>
 
-                    <button className="w-full mt-2 bg-purple-500 text-white py-2 rounded-xl hover:bg-purple-600 transition">
+                    <Link href={`/books/${v.id}`} className="w-full mt-2 bg-purple-500 text-white py-2 rounded-xl hover:bg-purple-600 transition">
                     Buy Now
-                    </button>
+                    </Link>
                 </div>
                 </div>
                     ))
