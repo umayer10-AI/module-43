@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Mouse",
+      "price": 15.99,
+      "category": "Electronics",
+      "stock": 25,
+      "brand": "Logitech",
+      "rating": 4.5,
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3"
+    },
+    {
+      "id": 2,
+      "name": "Mechanical Keyboard",
+      "price": 45.50,
+      "category": "Electronics",
+      "stock": 15,
+      "brand": "Redragon",
+      "rating": 4.7,
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8"
+    },
+    {
+      "id": 3,
+      "name": "Running Shoes",
+      "price": 60.00,
+      "category": "Fashion",
+      "stock": 30,
+      "brand": "Nike",
+      "rating": 4.6,
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff"
+    },
+    {
+      "id": 4,
+      "name": "Smart Watch",
+      "price": 120.99,
+      "category": "Electronics",
+      "stock": 10,
+      "brand": "Samsung",
+      "rating": 4.4,
+      "image": "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b"
+    },
+    {
+      "id": 5,
+      "name": "Backpack",
+      "price": 25.75,
+      "category": "Accessories",
+      "stock": 20,
+      "brand": "Skybags",
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62"
+    }
+  ]
+}
