@@ -11,7 +11,7 @@ const getPosts = async () => {
 const page = async () => {
 
     const data = await getPosts()
-    console.log(data)
+    // console.log(data)
 
     return (
         <div className='w-[80%] mx-auto'>

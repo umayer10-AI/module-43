@@ -10,6 +10,7 @@ const Navbar = () => {
         <Link href={'/'} className={p==='/'? "btn btn-accent btn-outline" : "btn"}>Home</Link>
         <Link href={'/posts'} className={p==='/posts'? "btn btn-accent btn-outline" : "btn"}>Post</Link>
         <Link href={'/products'} className={p==='/products'? "btn btn-accent btn-outline" : "btn"}>Product</Link>
+        <Link href={'/books'} className={p==='/books'? "btn btn-accent btn-outline" : "btn"}>Book</Link>
     </>
 
   return (
