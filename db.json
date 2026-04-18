@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "name": "Wireless Mouse",
+      "name": "Device Mouse",
       "price": 15.99,
       "category": "Electronics",
       "stock": 25,
@@ -13,7 +13,7 @@
     {
       "id": 2,
       "name": "Mechanical Keyboard",
-      "price": 45.50,
+      "price": 46.50,
       "category": "Electronics",
       "stock": 15,
       "brand": "Redragon",
@@ -32,7 +32,7 @@
     },
     {
       "id": 4,
-      "name": "Smart Watch",
+      "name": "Umayer Watch",
       "price": 120.99,
       "category": "Electronics",
       "stock": 10,
