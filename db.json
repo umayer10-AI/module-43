@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "name": "Device Mouse",
+      "name": "valo Umayer",
       "price": 15.99,
       "category": "Electronics",
       "stock": 25,
@@ -12,7 +12,7 @@
     },
     {
       "id": 2,
-      "name": "Mechanical Keyboard",
+      "name": "Robot Keyboard",
       "price": 46.50,
       "category": "Electronics",
       "stock": 15,

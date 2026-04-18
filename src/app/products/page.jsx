@@ -2,14 +2,16 @@ import ProductCarts from '@/component/ProductCarts';
 import React from 'react';
 
 const getPosts = async () => {
-    const res = await fetch("http://localhost:5000/products",{cache: "force-cache"})
+    // const res = await fetch("http://localhost:5000/products",{cache: "force-cache"})
+    // const res = await fetch("http://localhost:5000/products",{cache: "no-store"})
+    const res = await fetch("http://localhost:5000/products",{next: {revalidate: 10}})
     return await res.json()
 }
 
 const page = async () => {
 
     const data = await getPosts()
-    // console.log(data)
+    console.log(data)
 
     return (
         <div className='w-[80%] mx-auto'>
